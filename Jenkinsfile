@@ -11,7 +11,7 @@ pipeline {
 
             steps{    
             checkout{
-                branch: "main",
+                branch: "main"
                 url: "https://github.com/Kachi79/Kachi_java_app.git"
                 
                 }
