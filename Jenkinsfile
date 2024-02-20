@@ -1,11 +1,11 @@
-pipeline
+pipeline {
 
 
    agent any
 
-   stages
+   stages {
 
-       stage('Git Checkout')
+       stage('Git Checkout') {
 
          steps{
 
@@ -13,3 +13,23 @@ pipeline
                 git branch: 'main', url: 'https://github.com/Kachi79/kachi-java-app-.git'
              }
          }
+       }
+    
+    }
+
+    }     
+
+//          pipeline {
+//     agent any
+
+//     stages {
+//         stage('Git Checkout') {
+//             steps {
+//                 script {
+//                     git branch: 'main', url: 'https://github.com/Kachi79/kachi-java-app-.git'
+//                 }
+//             }
+//         }
+//         // Add more stages as needed
+//     }
+// }

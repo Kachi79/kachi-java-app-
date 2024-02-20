@@ -1,0 +1,15 @@
+*.log
+logs/
+temp/
+tmp/
+workspace/
+node_modules/
+lib/
+generated/
+.vscode/
+.idea/
+.DS_Store
+testdata/
+target/
+build/
+dist/
