@@ -15,7 +15,7 @@ pipeline {
 
                  gitCheckout{
                     branch: "main",
-                    url: ""
+                    url: "https://github.com/Kachi79/Kachi_java_app.git"
                  }
              }
          }
@@ -25,17 +25,3 @@ pipeline {
 
     }     
 
-//          pipeline {
-//     agent any
-
-//     stages {
-//         stage('Git Checkout') {
-//             steps {
-//                 script {
-//                     git branch: 'main', url: 'https://github.com/Kachi79/kachi-java-app-.git'
-//                 }
-//             }
-//         }
-//         // Add more stages as needed
-//     }
-// }
