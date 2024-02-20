@@ -1,3 +1,5 @@
+@Library('Jenkins-Shared-Library') _
+
 pipeline {
 
 
@@ -13,7 +15,7 @@ pipeline {
 
                  gitCheckout{
                     branch: "main",
-                    url: "https://github.com/Kachi79/kachi-java-app-.git"
+                    url: ""
                  }
              }
          }
