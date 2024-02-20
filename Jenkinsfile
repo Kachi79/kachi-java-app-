@@ -12,7 +12,7 @@ pipeline{
             checkout(
                 scmGit(
                     branches: [[name: 'main']],
-                    userRemoteConfigs: [[url: "https://github.com/Kachi79/Kachi_java_app.git"]]
+                    userRemoteConfigs: [[url: "https://github.com/Kachi79/kachi-java-app-.git"]]
                 )
            )
 
