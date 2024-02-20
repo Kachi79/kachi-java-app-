@@ -3,25 +3,20 @@
 pipeline {
 
 
-   agent any
+    agent any
 
-   stages {
+    stages {
 
-       stage('Git Checkout') {
+        stage('Git Checkout') {
 
-         steps{
-
-             script{
-
-                 gitCheckout{
-                    branch: "main",
-                    url: "https://github.com/Kachi79/Kachi_java_app.git"
-                 }
+            steps{    
+            gitCheckout{
+                branch: "main",
+                url: "https://github.com/Kachi79/Kachi_java_app.git"
+                
+                }
              }
          }
        }
     
-    }
-
-    }     
-
+}
